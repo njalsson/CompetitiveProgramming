@@ -1,3 +1,5 @@
+#kattis project https://open.kattis.com/problems/catalan
+
 import sys
 
 d = {}
@@ -17,6 +19,3 @@ for y in range(0,n):
     under = d[x+1] * d[x]
     sys.stdout.write(str(over // under) + '\n')
     #print(over // under)
-
-
-
